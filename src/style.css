@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    
+    background-color: #EBEBEA;
   }
   
   .search-form {
@@ -9,6 +9,12 @@ body {
     padding-bottom: 20px;
     text-align: center;
     background-color: #6244BB;
+  }
+  .search-btn{
+    padding: 3px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
   
   .gallery {
