@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .search-form {
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #6244BB;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .photo-card {
+    width: calc(25% - 10px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    margin-top: 10px;
+  }
+  
+  .load-more {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .load-more.hidden {
+    display: none;
+  }
