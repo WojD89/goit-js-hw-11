@@ -20,7 +20,7 @@ body {
   
   .photo-card {
     width: calc(25% - 10px);
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     padding: 10px;
     border-radius: 5px;
   }
@@ -33,12 +33,16 @@ body {
   .info {
     margin-top: 10px;
   }
-  
+  .load-btn-div{
+    display: flex;
+    justify-content: center
+  }
   .load-more {
-    display: block;
-    width: 100%;
+    
+    width: 90%;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: #007bff;
     color: white;
