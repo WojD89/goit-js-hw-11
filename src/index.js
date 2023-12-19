@@ -54,7 +54,7 @@ async function fetchImages() {
     }
   } catch (error) {
     console.error('Error fetching images:', error);
-    Notiflix.Notify.failure('Error fetching images. Please try again later.');
+    Notiflix.Notify.failure('Error getting images. Please try again later.');
     return false;
   }
 }
